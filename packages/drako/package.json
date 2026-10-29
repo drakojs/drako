@@ -38,6 +38,7 @@
 		"access": "public"
 	},
 	"scripts": {
+		"fmt": "pnpm run -w fmt .",
 		"fmt:check": "pnpm run -w fmt:check ."
 	},
 	"engines": {
