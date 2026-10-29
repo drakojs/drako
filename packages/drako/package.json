@@ -37,6 +37,9 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"scripts": {
+		"fmt:check": "pnpm run -w fmt:check ."
+	},
 	"engines": {
 		"node": ">=24.22"
 	}
