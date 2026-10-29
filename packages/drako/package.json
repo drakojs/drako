@@ -1,0 +1,47 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"name": "@drako/drako",
+	"version": "0.0.0",
+	"description": "Fast full-stack web framework",
+	"keywords": [
+		"fast",
+		"framework",
+		"full",
+		"full-stack",
+		"stack",
+		"web",
+		"web framework"
+	],
+	"homepage": "https://github.com/drakojs/drako/tree/master/packages/drako#readme",
+	"bugs": {
+		"url": "https://github.com/drakojs/drako/issues"
+	},
+	"license": "MIT",
+	"author": "Hunar Roop Kahlon <hunarroopcodes@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/drakojs/drako.git",
+		"directory": "packages/drako"
+	},
+	"files": [
+		"./LICENSE",
+		"./README.md",
+		"./package.json"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		"./LICENSE": "./LICENSE",
+		"./package.json": "./package.json"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"fmt": "pnpm run -w fmt .",
+		"fmt:check": "pnpm run -w fmt:check ."
+	},
+	"engines": {
+		"node": ">=24.22"
+	}
+}
